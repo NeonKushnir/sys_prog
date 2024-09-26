@@ -30,7 +30,7 @@ std::vector<int> sieveOfEratosthenes(int n)
 
 int main() 
 {
-    int n = 30;
+    int n = 100000;
     std::vector<int> primes = sieveOfEratosthenes(n);
     
     std::cout << "Прості числа до " << n << ": ";
